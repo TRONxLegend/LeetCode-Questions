@@ -28,7 +28,7 @@ class Solution {
                 result.add(matrix[endRow][j]);
             }
 
-            // Left column (if still valid) 
+            // Left column (if still valid)
             for (int i = endRow - 1; i > startRow; i--) {
                 if (startCol == endCol) {
                     break; // Avoid double-counting the single column
