@@ -42,7 +42,6 @@ class Solution {
             endRow--;
             endCol--;
         }
-
         return result;
     }
 }
